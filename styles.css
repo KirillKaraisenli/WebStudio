@@ -1,4 +1,7 @@
-h3 {
-    color: blueviolet;
-    text-transform: uppercase;
-}
+.black {color: rgb(0, 0, 0);}
+h3 {color: rgb(0, 0, 0);}
+p {color: rgb(90, 100, 100);}
+.white {color: rgb(219, 228, 236);}
+.blue { color: rgb(0, 145, 235);}
+.gray {color: rgb(90, 100, 100);}
+
