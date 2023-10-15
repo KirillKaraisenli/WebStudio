@@ -1,7 +1,25 @@
-.black {color: rgb(0, 0, 0);}
-h3 {color: rgb(0, 0, 0);}
-p {color: rgb(90, 100, 100);}
-.white {color: rgb(219, 228, 236);}
-.blue { color: rgb(0, 145, 235);}
-.gray {color: rgb(90, 100, 100);}
+:root {
+    --link-color: #2196F3;
+    --title-color: #212121;
+    --main-text-color: #757575;
+}
 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+.header__nav__link {
+    color: var(--title-color);
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+}
