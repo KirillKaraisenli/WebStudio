@@ -2,7 +2,6 @@
     --link-color: #2196F3;
     --title-color: #212121;
     --main-text-color: #757575;
-
 }
 
 ul {
@@ -112,20 +111,16 @@ height: 50px;
 flex-shrink: 0;
 
 }
+.main-section {
 
-.main {
 }
+.main-section__list {
 
-
-.main__list {
 }
+.main-section__item {
 
-
-.main__item {
 }
-
-
-.main__title {color: #212121;
+.main-section__title {color: #212121;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -133,22 +128,30 @@ flex-shrink: 0;
     line-height: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
+
 }
 
+.main-section__button{
+    color: #212121;
 
-.main__text {color: #757575;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 171.429%; /* 171.429% */
-    letter-spacing: 0.42px;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 162.5% */
+letter-spacing: 0.48px;
 }
 
+.main-section__text {color: #757575;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 171.429px;
+letter-spacing: 0.42px;
 
-.services {
 }
-
 
 .services__title {color: #212121;
     text-align: center;
@@ -160,6 +163,31 @@ flex-shrink: 0;
     letter-spacing: 1.08px;
     
 }
+
+.main-section__photo {color: #757575;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.48px;}
+
+    .main-section__subtitle {
+        color: #212121;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; /* 200% */
+letter-spacing: 1.08px;
+    }
+    .main-section__portfolio-text {color: #757575;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 187.5% */
+        letter-spacing: 0.48px;
+
+    }
+
 
 
 .services__list {
@@ -235,10 +263,23 @@ letter-spacing: 0.78px;
 }
 
 
-.footer__link {color: #FFF;
+.footer__link-1 {color: #FFF;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 171.429%; /* 171.429% */
     letter-spacing: 0.42px;}  
+
+.footer__link-2 {
+    color: rgba(255, 255, 255, 0.60);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+}
+.footer__item {
+
+}
