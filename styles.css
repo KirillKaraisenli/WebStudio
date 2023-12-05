@@ -117,16 +117,16 @@ height: 50px;
 flex-shrink: 0;
 
 }
-.main-section {
+.information-section {
 
 }
-.main-section__list {
+.information-section__list {
 
 }
-.main-section__item {
+.portfolio-section__item {
 
 }
-.main-section__title {color: #212121;
+.information-section__title {color: #212121;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-style: normal;
@@ -137,7 +137,7 @@ flex-shrink: 0;
 
 }
 
-.main-section__button{
+.portfolio-section__button{
     color: #212121;
 
 text-align: center;
@@ -145,11 +145,11 @@ font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
-line-height: 26px; /* 162.5% */
+line-height: 162.5%; /* 162.5% */
 letter-spacing: 0.48px;
 }
 
-.main-section__text {color: #757575;
+.information-section__text {color: #757575;
 font-family: "Roboto", sans-serif;
 font-size: 14px;
 font-style: normal;
@@ -170,26 +170,26 @@ letter-spacing: 0.42px;
     
 }
 
-.main-section__photo {color: #757575;
+.section__portfolio-photo {color: #757575;
     font-weight: 400;
     line-height: 187.5%; /* 187.5% */
     letter-spacing: 0.48px;}
 
-    .main-section__subtitle {
+    .section__subtitle {
         color: #212121;
 font-family: Roboto;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
-line-height: 36px; /* 200% */
+line-height: 200%; /* 200% */
 letter-spacing: 1.08px;
     }
-    .main-section__portfolio-text {color: #757575;
+    .section__portfolio-text {color: #757575;
         font-family: "Roboto", sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 30px; /* 187.5% */
+        line-height: 187.5%; /* 187.5% */
         letter-spacing: 0.48px;
 
     }
