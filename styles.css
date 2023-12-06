@@ -57,7 +57,7 @@ letter-spacing: 0.28px;
 }
 
 
-.header__nav__link {color: #212121;
+.header__link-black {color: #212121;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-style: normal;
@@ -214,8 +214,20 @@ letter-spacing: 1.08px;
 .team-members {
 }
 
+.team-members__title {
+    color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
 
-.team-members__title {color: #212121;
+}
+
+
+.team-members__subtitle {color: #212121;
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
