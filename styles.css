@@ -57,7 +57,7 @@ letter-spacing: 0.28px;
 }
 
 
-.header__link-black {color: #212121;
+.header__link-nav {color: #212121;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-style: normal;
@@ -71,7 +71,7 @@ letter-spacing: 0.28px;
 }
 
 
-.header__link {color: #757575;
+.header__contacts-link {color: #757575;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-style: normal;
