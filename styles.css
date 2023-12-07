@@ -4,6 +4,19 @@
     --main-text-color: #757575;
 }
 
+    .container{
+        width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+        outline: 1px solid rgb(251, 0, 255);
+    }
+
+.container-informanion {
+width: 1170px;
+height: 98px;
+flex-shrink: 0;
+outline: 2px solid #2196F3 
+}
 
 body {
     font-family: "Roboto", sans-serif;
@@ -86,6 +99,7 @@ letter-spacing: 0.28px;
     flex-shrink: 0;
     background: #2F303A;
 }
+
 
 
 .hero__title {color: #FFF;
