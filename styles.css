@@ -44,8 +44,14 @@ letter-spacing: 0.28px;
 }
 
 .header {
+    padding: 25px 0px;
 }
 
+.header .container {
+    display: flex;
+    align-items: center;
+    
+}
 
 .header__logo {color: #2196F3;
     font-family: Raleway;
@@ -54,21 +60,37 @@ letter-spacing: 0.28px;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
+    margin-right: 93px;
 }
 
 
 
-.header__nav {
+.header__nav { 
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
 }
 
+.header__nav-list{
+       display: flex;
+    gap: 50px;
+    margin-right: 344px;
+
+}
 
 .header__list {
+  
+
 }
 
 
 .header__item {
 }
 
+.header__contacts {
+    display: flex;
+    gap: 50px;
+}
 
 .header__link-nav {color: #212121;
     font-family: "Roboto", sans-serif;
@@ -77,9 +99,12 @@ letter-spacing: 0.28px;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
+    
 }
 
-
+.header__contacts-item{
+    
+}
 .header-list {
 }
 
@@ -91,6 +116,7 @@ letter-spacing: 0.28px;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
+    
 }
 
 
