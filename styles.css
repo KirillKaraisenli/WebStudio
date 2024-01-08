@@ -203,13 +203,13 @@ a {
   letter-spacing: 1.08px;
 }
 .portfolio-section {
+    display: flex;
+    
 }
 .portfolio-section__item {
-  flex-shrink: 0;
-  padding: 6px 22px;
+
 }
 .portfolio-section__list {
-  color: var(--title-color);
   text-align: center;
   font-size: 16px;
   font-weight: 500;
