@@ -201,7 +201,11 @@ letter-spacing: 0.42px;
 
 }
 
-.services__title {color: #212121;
+.services__title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;   
+     color: #212121;
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 36px;
@@ -212,7 +216,8 @@ letter-spacing: 0.42px;
     
 }
 
-.section__portfolio-photo {color: #757575;
+.section__portfolio-photo {
+    color: #757575;
     font-weight: 400;
     line-height: 187.5%; /* 187.5% */
     letter-spacing: 0.48px;}
@@ -238,7 +243,9 @@ letter-spacing: 1.08px;
 
 
 
-.services__list {
+.services__list {  
+    display: flex;
+    gap: 30px;
 }
 
 
@@ -247,7 +254,10 @@ letter-spacing: 1.08px;
 
 
 .services_photo {
-    text-align: center;width: 370px;
+    display: flex;
+    align-content: center;
+    margin: 5px;
+    width: 370px;
     height: 294px;
     flex-shrink: 0;
 }
@@ -257,6 +267,8 @@ letter-spacing: 1.08px;
 }
 
 .team-members__title {
+    display: flex;
+    margin-bottom: 50px;
     color: #212121;
 text-align: center;
 font-family: Roboto;
@@ -280,7 +292,9 @@ letter-spacing: 1.08px;
 }
 
 
-.team-members__list {
+.team-members__list {display: flex;
+    gap: 30px;
+
 }
 
 
@@ -309,6 +323,8 @@ letter-spacing: 1.08px;
     flex-shrink: 0;
     background: #2F303A;}
 .footer__logo {
+    display: flex;
+    padding-top: 60px;
     color: #2196F3;
 font-family: Raleway ;
 font-size: 26px;
@@ -320,6 +336,10 @@ letter-spacing: 0.78px;
 
 
 .footer__list {
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    
 }
 
 
