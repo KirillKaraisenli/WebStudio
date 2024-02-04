@@ -110,14 +110,26 @@ a {
   letter-spacing: 0.28px;
 }
 
+
 .hero {
+  position: relative;
   width: 1519px;
   height: 600px;
   flex-shrink: 0;
   background-image: url("./img/hero.jpg");
 }
 
+.hero::before {
+  content: "";
+  position: absolute;
+  width: 1519px;
+  height: 600px;
+  background: rgba(0, 0, 0, 0.3); 
+}
+
+
 .hero__title {
+  position: relative;
   color: #fff;
   text-align: center;
   font-family: "Roboto", sans-serif;
@@ -132,6 +144,7 @@ a {
 }
 
 .hero-button {
+  position: relative;
   display: block;
   margin: 0 auto;
   color: #fff;
