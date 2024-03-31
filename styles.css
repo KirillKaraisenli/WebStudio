@@ -528,7 +528,7 @@ letter-spacing: 1.08px;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 171.429%; /* 171.429% */
+  line-height: 171.429%;
   letter-spacing: 0.42px;
 }
 
@@ -538,8 +538,67 @@ letter-spacing: 1.08px;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 171.429%; /* 171.429% */
+  line-height: 171.429%;
   letter-spacing: 0.42px;
 }
-.footer__item {
+
+
+.footer__text {
+  color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+
+.footer__item{
+}
+
+
+.footer-svg-list {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.footer-svg-item {
+}
+
+.footer-svg-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color:rgba(255, 255, 255, 0.10);
+}
+
+.footer-svg-link:hover,
+.footer-svg-link:focus {
+  background-color: var(--link-color);
+}
+
+.footer-svg-link:hover .footer-svg,
+.footer-svg-link:focus .footer-svg {
+  fill: #FFF;
+}
+
+.footer-svg {
+  fill: #FFF;
+  width: 20px;
+  height: 20px;
+}
+
+.footer-x-svg {
+  display: flex;
+}
+
+.footer-svg-section {
+  padding-top: 72px;
+  padding-left: 70px;
 }
