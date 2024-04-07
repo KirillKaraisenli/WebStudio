@@ -168,46 +168,54 @@ a {
   height: 50px;
   flex-shrink: 0;
 }
+
+/* information */
+
 .information-section {
+  
 }
 .information-section__list {
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
 }
 
 .information-section__item::before {
   content: "";
   display: block;
-  background-size: 69px 69px;
-  width: 260px;
+  width: 270px;
   height: 120px;
   border-radius: 4px;
-  background-color: #f5f4fa;
+  background-color: #f5f4fa;  
+  margin-bottom: 30px;
 }
 
 .information-section__item:nth-child(1)::before {
   content: "";
   display: block;
+  width: 270px;
+  height: 120px;
   background-image: url("./img/information/antenna.png");
   background-repeat: no-repeat;
   background-position: center;
-  size: 250px;
 }
 .information-section__item:nth-child(2)::before {
   content: "";
   display: block;
+  width: 270px;
+  height: 120px;
   background-image: url("./img/information/clock.png");
   background-repeat: no-repeat;
   background-position: center;
-  size: 250px;
 }
+
 .information-section__item:nth-child(3)::before {
   content: "";
   display: block;
+  width: 270px;
+  height: 120px;
   background-image: url("./img/information/diagram.png");
   background-repeat: no-repeat;
   background-position: center;
-  size: 250px;
 }
 .information-section__item:nth-child(4)::before {
   content: "";
@@ -215,10 +223,6 @@ a {
   background-image: url("./img/information/astronaut.png");
   background-repeat: no-repeat;
   background-position: center;
-  size: 250px;
-}
-
-.portfolio-section__item {
 }
 .information-section__title {
   color: #212121;
@@ -241,6 +245,9 @@ a {
   letter-spacing: 0.42px;
 }
 
+.portfolio-section__item {
+}
+
 
 .portfolio-section__list {
   display: flex;
@@ -259,6 +266,7 @@ a {
 
 .portfolio-item {
   flex-basis: calc((100% - 60px) / 3);
+  border: 1px solid #EEE;
 }
 
 .portfolio-section__item {
@@ -268,7 +276,8 @@ a {
 
 .portfolio-section__button {
   color: #212121;
-
+  border-radius: 4px;
+  background: #F5F4FA;
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -277,15 +286,14 @@ a {
   line-height: 162.5%; /* 162.5% */
   letter-spacing: 0.48px;
   padding: 6px 22px;
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-  margin-right: 8px;
 }
 
 .portfolio-section__button:hover,
 .portfolio-section__button:focus {
   background: #2196f3;
   color: white;
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+
 }
 
 .section__portfolio-photo {
