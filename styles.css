@@ -241,19 +241,7 @@ a {
   letter-spacing: 0.42px;
 }
 
-.services__title {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 50px;
-  color: #212121;
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 1.08px;
-}
+
 .portfolio-section__list {
   display: flex;
   justify-content: center;
@@ -338,25 +326,61 @@ a {
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
+/* services */
+
 .services-section .container {
   height: 500;
+}
+
+.services__title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  color: #212121;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
 }
 
 .services__list {
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
-.services__item {
+.services__item {  position: relative;
+
 }
 
 .services_photo {
   display: flex;
   align-content: center;
-  margin: 5px;
   width: 370px;
   height: 294px;
   flex-shrink: 0;
+
+}
+
+.services__p {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+background: rgba(47, 48, 58, 0.80);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+text-transform: uppercase;
 }
 
 /* team-members-section */
