@@ -329,45 +329,47 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button class="btn" data-modal-close>Закрити</button>
-            <h3 class="modal-title">Залиште свої дані, ми вам передзвонимо</h3>
-            <form class="signup_form">
-                <ul class="signup-list">
-                    <li class="signup-item">
+            <button class="btn" data-modal-close>                        
+                <a href="#" class="close-svg-link">
+                <svg class="close-svg">
+                    <use href="./img/icons/symbol-defs.svg#icon-close"></use>
+                </svg>
+            </a></button>
+            <h1 class="modal-title">Залиште свої дані, ми вам передзвонимо</h1>
+                <form class="signup-form">
+                    <label class="signup-label">
                         <p class="signup-text">Ім'я</p>
 
-                        <input class="signup-label" type="text" name="name"  required min="4" max="25">
+                        <input class="signup-input" type="text" name="name"  required min="4" max="25">
                         <a href="#" class="signup-svg-link">
                             <svg class="signup-svg">
                                 <use href="./img/icons/symbol-defs.svg#icon-person"></use>
                             </svg>
                         </a>
-                    </li>
-                    <li class="signup-item">
+                    </label>
+                    <label  class="signup-label">
                         <p class="signup-text">Номер телефону</p>
 
-                        <input class="signup-label" type="tel" name="phone" pattern="[0-9]{12}"  required minlength="10" maxlength="12" title="Вкажіть свій номер телефону">
+                        <input class="signup-input" type="tel" name="phone" pattern="[0-9][10]" title="Вкажіть свій номер телефону">
                         <a href="#" class="signup-svg-link">
                             <svg class="signup-svg">
                                 <use href="./img/icons/symbol-defs.svg#icon-smartphone"></use>
                             </svg>
                         </a>
-                    </li>
+                    </label>
 
-                    <li class="signup-item">
+                    <label  class="signup-label">
                         <p class="signup-text">Пошта</p>
-                        <input class="signup-label" type="email" name="email">
+                        <input class="signup-input" type="email" name="email">
                         <a href="#" class="signup-svg-link">
                             <svg class="signup-svg">
                                 <use href="./img/icons/symbol-defs.svg#icon-email"></use>
                             </svg>
                         </a>
-                    </li>
-                    <li class="signup-item">
-                        <p class="signup-text">Коментар</p>
-                        <input class="signup-label" type="text" name="text" placeholder="Введіть текст">
-                    </li>
-                </ul>
+                    </label>
+                    <label placeholder="Your message*" class="signup-label" for="" >
+                        <textarea  class="signup-input" name="message" id="" cols="30" rows="10"></textarea>
+                    </label>
                 <button class="signup-button" type="submit">Submit</button>
             </form>
             </li>
