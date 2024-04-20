@@ -330,47 +330,46 @@
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button class="btn" data-modal-close>                        
-                <a href="#" class="close-svg-link">
                 <svg class="close-svg">
                     <use href="./img/icons/symbol-defs.svg#icon-close"></use>
                 </svg>
-            </a></button>
+            </button>
             <h1 class="modal-title">Залиште свої дані, ми вам передзвонимо</h1>
                 <form class="signup-form">
-                    <label class="signup-label">
-                        <p class="signup-text">Ім'я</p>
-
-                        <input class="signup-input" type="text" name="name"  required min="4" max="25">
-                        <a href="#" class="signup-svg-link">
+                    <label class="signup-label">Ім'я
+                     <div class="signup-thumb">
+                        <input class="signup-input" type="text" name="name"  pattern="^[A-Za-zА-Яа-яЁёІіЇїЄє\s\-']{1,50}$" required title="Вкажіть своє ім'я">
                             <svg class="signup-svg">
                                 <use href="./img/icons/symbol-defs.svg#icon-person"></use>
                             </svg>
-                        </a>
+                    </div>
                     </label>
-                    <label  class="signup-label">
-                        <p class="signup-text">Номер телефону</p>
-
-                        <input class="signup-input" type="tel" name="phone" pattern="[0-9][10]" title="Вкажіть свій номер телефону">
-                        <a href="#" class="signup-svg-link">
+                    <label  class="signup-label">Номер телефону
+                        <div class="signup-thumb">
+                        <input class="signup-input" type="tel" name="phone" pattern="^(?:\d{10}|38\d{10})$" required title="Вкажіть свій номер телефону">
                             <svg class="signup-svg">
                                 <use href="./img/icons/symbol-defs.svg#icon-smartphone"></use>
                             </svg>
-                        </a>
+                        </div>
                     </label>
 
-                    <label  class="signup-label">
-                        <p class="signup-text">Пошта</p>
-                        <input class="signup-input" type="email" name="email">
-                        <a href="#" class="signup-svg-link">
+                    <label  class="signup-label">Пошта
+                        <div class="signup-thumb">
+                        <input class="signup-input" type="email" name="email" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required title="Вкажіть свою елктронну адресу">
                             <svg class="signup-svg">
                                 <use href="./img/icons/symbol-defs.svg#icon-email"></use>
                             </svg>
-                        </a>
+                        </div>
                     </label>
-                    <label placeholder="Your message*" class="signup-label" for="" >
-                        <textarea  class="signup-input" name="message" id="" cols="30" rows="10"></textarea>
+                    <label placeholder="Your message*" class="signup-label" for="" >Коментар
+                        <div class="signup-thumb">
+                        <textarea  class="signup-input" name="message" placeholder="Введіть текст" id="" cols="30" rows="10"></textarea>
+                        </div>
                     </label>
-                <button class="signup-button" type="submit">Submit</button>
+                <button class="signup-button" type="submit">Відправити</button>
+                <div class="label__input">
+
+                </div>
             </form>
             </li>
         </div>
