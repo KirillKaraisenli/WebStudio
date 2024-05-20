@@ -72,6 +72,16 @@ a {
   padding-bottom: 25px;
 }
 
+.header__logo2{
+  color: #000000;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
 .header__nav {
   font-size: 14px;
   font-weight: 500;
@@ -560,6 +570,16 @@ a {
   display: flex;
   padding-top: 60px;
   color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
+.footer__logo2{
+  color: #FFF;
   font-family: Raleway;
   font-size: 26px;
   font-style: normal;
