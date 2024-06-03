@@ -1,0 +1,20 @@
+// base
+@import "./base/reset";
+@import "./base/container";
+@import "./base/common";
+// utils
+@import "./utils/variables";
+// components
+@import "./components/header";
+@import "./components/footer";
+//studio
+@import "./components/studio/hero";
+@import "./components/studio/information";
+@import "./components/studio/hero";
+@import "./components/studio/services";
+@import "./components/studio/team-members-section";
+@import "./components/studio/regular__customers";
+@import "./components/studio/modal";
+//portfolio
+@import "./components/portfolio/button";
+@import "./components/portfolio/projects";
