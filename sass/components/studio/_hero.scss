@@ -5,10 +5,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  
-  }
-  
-  .hero__title {
+
+    &__title {
     color: #fff;
     text-align: center;
     font-size: 44px;
@@ -20,7 +18,7 @@
     padding-top: 200px;
   }
   
-  .hero-button {
+  &-button {
     position: relative;
     display: block;
     margin: 0 auto;
@@ -32,11 +30,12 @@
     line-height: 187.5%; /* 187.5% */
     letter-spacing: 0.96px;
     border-radius: 4px;
-    background: #2196f3;
+    background: $link-color;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     width: 216px;
     height: 50px;
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1)
+  }
   }
   
   .hero-button:hover,

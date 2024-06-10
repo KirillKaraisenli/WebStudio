@@ -158,18 +158,18 @@
     line-height: 187.5%;
     letter-spacing: 0.96px;
     border-radius: 4px;
-    background: #2196f3;
+    background: $link-color;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     width: 216px;
     height: 50px;
   }
   .signup-thumb:focus,
   .signup-thumb:hover {
-    fill: #2196F3;
+    fill: $link-color;
   }
   .signup-input:focus,
   .signup-input:hover {
-    outline: solid #2196F3 1px;
+    outline: solid $link-color 1px;
   }
   .security__div {
     display: flex;  align-items: center;
@@ -179,7 +179,7 @@
     width: 16px;
   height: 15px;
   }
-  .security__text {color: #757575;
+  .security__text {color: $main-text-color;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -189,7 +189,7 @@
     padding-left: 8.38px;
   }
   .security__link {
-    color: #2196F3;
+    color: $link-color;
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;

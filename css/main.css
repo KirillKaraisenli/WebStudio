@@ -69,12 +69,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-:root {
-  --link-color: #2196f3;
-  --title-color: #212121;
-  --main-text-color: #757575;
-}
-
 .header__link-nav {
   color: #212121;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -347,7 +341,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .hero__title {
   color: #fff;
   text-align: center;
@@ -359,7 +352,6 @@ body {
   margin-bottom: 40px;
   padding-top: 200px;
 }
-
 .hero-button {
   position: relative;
   display: block;
@@ -570,6 +562,18 @@ body {
 .regular__customers {
   padding: 94px 0px;
 }
+.regular__customers-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.regular__customers-item {
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+  padding: 16px 32px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .regular__customers-title {
   color: #212121;
@@ -581,20 +585,6 @@ body {
   line-height: normal;
   letter-spacing: 1.08px;
   margin-bottom: 50px;
-}
-
-.regular__customers-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-}
-
-.regular__customers-item {
-  border-radius: 4px;
-  border: 1px solid #afb1b8;
-  padding: 16px 32px;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .regular__customers-svg {
@@ -767,12 +757,12 @@ body {
 
 .signup-thumb:focus,
 .signup-thumb:hover {
-  fill: #2196F3;
+  fill: #2196f3;
 }
 
 .signup-input:focus,
 .signup-input:hover {
-  outline: solid #2196F3 1px;
+  outline: solid #2196f3 1px;
 }
 
 .security__div {
@@ -798,7 +788,7 @@ body {
 }
 
 .security__link {
-  color: #2196F3;
+  color: #2196f3;
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;

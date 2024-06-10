@@ -1,5 +1,20 @@
 .regular__customers {
     padding: 94px 0px;
+
+
+  
+  &-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }  
+  &-item {
+    border-radius: 4px;
+    border: 1px solid #afb1b8;
+    padding: 16px 32px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
   }
   
   .regular__customers-title {
@@ -14,22 +29,10 @@
     margin-bottom: 50px;
   }
   
-  .regular__customers-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-  }
-  
   .regular__customers-item-link {
   }
   
-  .regular__customers-item {
-    border-radius: 4px;
-    border: 1px solid #afb1b8;
-    padding: 16px 32px;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+
   
   .regular__customers-svg {
     fill: #afb1b8;
