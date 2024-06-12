@@ -1,10 +1,9 @@
 
-.team-members-section {
+.team-members {
     padding: 94px 0;
-    background: #f5f4fa;
-  }
-  
-  .team-members__title {
+    background: #f5f4fa; 
+    
+    &__title {
     color: #212121;
     text-align: center;
     font-family: Roboto;
@@ -14,25 +13,25 @@
     margin-bottom: 50px;
   }
   
-  .team-members__list {
+  &__list {
     display: flex;
     gap: 30px;
   }
   
-  .team-members__item {
+  &__item {
     border-radius: 0px 0px 4px 4px;
     background: #fff;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
       0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   }
   
-  .team-members__photo {
+  &__photo {
     width: 270px;
     height: 260px;
     margin-bottom: 30px;
   }
   
-  .team-members__subtitle {
+  &__subtitle {
     color: #212121;
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -42,8 +41,8 @@
     margin-bottom: 10px;
   }
   
-  .team-members_text {
-    color: #757575;
+  &_text {
+    color: $main-text-color;
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -52,17 +51,17 @@
     margin-bottom: 16px;
   }
   
-  .team-members-svg-list {
+  &-svg-list {
     display: flex;
     justify-content: center;
     gap: 10px;
     margin-bottom: 30px;
   }
   
-  .team-members-svg-item {
+  &-svg-item {
   }
   
-  .team-members-svg-link {
+  &-svg-link {
    
     display: flex;
     justify-content: center;
@@ -73,21 +72,24 @@
     background-color: #fff;
      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .team-members-svg {
+  &-svg {
     
     fill: #afb1b8;
     width: 20px;
     height: 20px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .team-members-svg-link:hover,
-  .team-members-svg-link:focus {
-    background-color: var(--link-color);
+  &-svg-link:hover,
+  &-svg-link:focus {
+    background-color: $link-color ;
   }
   
-  .team-members-svg-link:hover .team-members-svg,
-  .team-members-svg-link:focus .team-members-svg {
+  &-svg-link:hover &-svg,
+  &-svg-link:focus &-svg {
     fill: #fff;
   }
+  }
+  
+
   
   

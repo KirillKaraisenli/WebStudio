@@ -15,9 +15,7 @@
     padding: 16px 32px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  }
-  
-  .regular__customers-title {
+  &-title {
     color: #212121;
     text-align: center;
     font-family: Roboto;
@@ -29,24 +27,26 @@
     margin-bottom: 50px;
   }
   
-  .regular__customers-item-link {
+  &-item-link {
   }
   
 
   
-  .regular__customers-svg {
+  &-svg {
     fill: #afb1b8;
     width: 106px;
     height: 60px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .regular__customers-item:hover,
-  .regular__customers-item:focus {
+  &-item:hover,
+  &-item:focus {
     border: 1px solid #2196f3;
   }
-  .regular__customers-item:hover .regular__customers-svg,
-  .regular__customers-item:focus .regular__customers-svg {
+  &-item:hover &-svg,
+  &-item:focus &-svg {
     fill: #2196f3;
+  }
+  
   }
   

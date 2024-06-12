@@ -1,9 +1,8 @@
 
-.services-section {
+.services {
     padding-bottom: 94px;
-  }
-  
-  .services__title {
+    
+      &__title {
     color: #212121;
     text-align: center;
     font-size: 36px;
@@ -12,21 +11,21 @@
     margin-bottom: 50px;
   }
   
-  .services__list {
+  &__list {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
   }
   
-  .services__item {
+  &__item {
     position: relative;
   }
   
-  .services_photo {
+  &__photo {
   }
   
-  .services__p {
+  &__p {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -41,3 +40,5 @@
     letter-spacing: 0.42px;
     text-transform: uppercase;
   }
+  }
+  
