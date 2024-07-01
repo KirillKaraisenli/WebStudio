@@ -63,9 +63,7 @@
   
   &-svg-link {
    
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex;
     width: 44px;
     height: 44px;
     border-radius: 50%;

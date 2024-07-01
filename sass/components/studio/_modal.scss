@@ -40,9 +40,7 @@
   
  
   .close-svg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex;
     width: 18px;
     height: 18px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -175,8 +173,7 @@
     outline: solid $link-color 1px;
   }
   .security__div {
-    display: flex;  align-items: center;
-    justify-content: center;
+    @extend %flex;
   }
   .security__input {
     width: 16px;

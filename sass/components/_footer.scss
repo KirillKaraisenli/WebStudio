@@ -79,9 +79,7 @@
   
   &-svg-link {
   
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex;
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -142,11 +140,9 @@
   }
   
   &__button { 
-     display: flex;
+    @extend %flex;
     margin-top: 36px;
     margin-left: 12px;
-    justify-content: center;
-    align-items: center;
     color: #FFF;
   text-align: center;
   font-family: Roboto;

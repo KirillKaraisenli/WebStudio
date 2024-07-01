@@ -4,11 +4,10 @@
 
   
   &-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  @extend %flex;
     gap: 30px;
   }  
+  
   &-item {
     border-radius: 4px;
     border: 1px solid #afb1b8;
@@ -49,4 +48,3 @@
   }
   
   }
-  
