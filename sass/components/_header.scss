@@ -118,10 +118,9 @@ height: 40px;
 
 // tablet
 
-@media screen and  (min-width: 768px) {
-  
-  header {
-    padding: 2px 0px 0px  0px;
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 25px 0px 0px  0px;
 
   &__link-nav {
     display: flex;
@@ -154,23 +153,23 @@ height: 40px;
   &__logo {
     color:$link-color;
     font-family: Raleway;
-    font-size: 26px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 0.78px;
-    margin-right: 93px;
+    letter-spacing: 0.72px;
+    margin-right: 88px;
     padding-bottom: 25px;
   }
   
   &__logo2{
-    color: #000000;
+    color: #212121;
     font-family: Raleway;
-    font-size: 26px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 0.78px;
+    letter-spacing: 0.72px;
   }
 
   &__burger {
@@ -179,9 +178,6 @@ height: 40px;
   
   &__burger-svg {    
 display: none;
-    width: 40px;
-height: 40px;
-  fill: black;
   }
 
   &__nav {
@@ -194,7 +190,7 @@ height: 40px;
   &__nav-list {
     display: flex;
     gap: 50px;
-    margin-right: 318px;
+    margin-right: 90px;
   }
   
 
@@ -207,17 +203,17 @@ height: 40px;
   &__contacts {
     display: flex;
     align-items: center;
-    gap: 30px;
-    padding-bottom: 25px;
+    flex-direction: column;
   }
   
   
   
   &__contacts-item {
     display: flex;
+    
   }
   &-list {
-    display: flex;
+
   }
   
   &__contacts-link {
@@ -248,11 +244,9 @@ height: 40px;
     background: $link-color;
     margin-top: 28px;
   }
-
   }
 
 // desctop
-
 @media screen and  (min-width: 1200px) {
   .header {
     padding: 25px 0px 0px  0px;
