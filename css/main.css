@@ -55,11 +55,17 @@ a {
 }
 
 .container {
-  width: 480px;
-  margin: 0 auto;
+  width: 100%;
   padding: 0 15px;
+  outline: solid red 1px;
 }
 
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+    margin: 0 auto;
+  }
+}
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
@@ -83,86 +89,83 @@ body {
   align-items: center;
 }
 
-@media screen and (min-width: 0px) {
-  .header {
-    padding: 10px;
-  }
-  .header__link-nav {
-    display: none;
-  }
-  .header__contacts-link:hover, .header__link-nav:hover {
-    color: #2196f3;
-  }
-  .header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .header__logo {
-    color: #2196f3;
-    font-family: Raleway;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.72px;
-  }
-  .header__burger-svg {
-    width: 40px;
-    height: 40px;
-    fill: black;
-  }
-  .header__logo2 {
-    color: #000000;
-    font-family: Raleway;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.72px;
-  }
-  .header__nav {
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.28px;
-  }
-  .header__nav-list {
-    display: none;
-    gap: 50px;
-    margin-right: 318px;
-  }
-  .header__contacts {
-    display: none;
-    align-items: center;
-    gap: 30px;
-    padding-bottom: 25px;
-  }
-  .header__contacts-link {
-    display: flex;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    align-items: center;
-    gap: 10px;
-    color: #757575;
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
-  }
-  .header__contacts-svg {
-    fill: currentColor;
-  }
-  .hover::after {
-    content: "";
-    display: block;
-    height: 4px;
-    width: 100%;
-    border-radius: 2px;
-    background: #2196f3;
-    margin-top: 28px;
-  }
+.header {
+  padding: 10px;
 }
+.header__link-nav {
+  display: none;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo {
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.72px;
+}
+.header__burger-button {
+  padding: 0;
+  background-color: transparent;
+}
+.header__burger-svg {
+  width: 40px;
+  height: 40px;
+  fill: black;
+}
+.header__logo2 {
+  color: #000000;
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.72px;
+}
+.header__nav {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+}
+.header__nav-list {
+  display: none;
+  gap: 50px;
+  margin-right: 318px;
+}
+.header__contacts {
+  display: none;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 25px;
+}
+.header__contacts-link {
+  display: flex;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  align-items: center;
+  gap: 10px;
+  color: #757575;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+.header__contacts-svg {
+  fill: currentColor;
+}
+
+.hover::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
+  background: #2196f3;
+  margin-top: 28px;
+}
+
 @media screen and (min-width: 768px) {
   .header {
     padding: 25px 0px 0px 0px;
