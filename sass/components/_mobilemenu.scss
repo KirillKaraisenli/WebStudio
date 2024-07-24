@@ -4,9 +4,9 @@ display: none;
 }
 
 @media screen and (max-width: 768px) {
-    nav {
-      order: 1;
-    }
+    // nav {
+    //   order: 1;
+    // }
   
     label {
       display: block;
@@ -37,17 +37,17 @@ display: none;
       top: 8px;
     }
   
-    .header__nav{
+    .hheader__nav-list{
       display: none;
     }
   
   
-  input[type="checkbox"]:checked ~ .header__nav {
+  input[type="checkbox"]:checked ~ .header__nav-list {
     display: flex;
     flex-direction: column;
   }
 
-  .header__nav {
+  .header__nav-list {
     position: absolute;
     top: 0;
     left: 0;
@@ -58,7 +58,7 @@ display: none;
     box-shadow: 0 12px 8px #ececec;
   }
   
-  .header__nav li {
+  .header__nav-list li {
     margin: 15px 0;
   }
 
