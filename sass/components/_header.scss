@@ -125,7 +125,8 @@ padding-bottom: 21px;
 // desctop
 @media screen and (min-width: 1200px) {
   .header {
-    padding: 25px 0px 0px  0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 
   &__link-nav {
     color: #212121;
@@ -158,7 +159,6 @@ padding-bottom: 21px;
     line-height: normal;
     letter-spacing: 0.78px;
     margin-right: 93px;
-    padding-bottom: 25px;
   }
   
   &__logo2{
@@ -175,12 +175,13 @@ padding-bottom: 21px;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.28px;
+    margin-right: 315px
   }
   
   &__nav-list {
     display: flex;
     gap: 50px;
-    margin-right: 318px;
+    ;
   }
   
 
