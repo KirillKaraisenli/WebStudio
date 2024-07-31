@@ -15,14 +15,14 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
-
+   <!-- header -->
 <body>
     <header class="header">
         <div class="container">
             <a href="#" class="header__logo">Web<span class="header__logo2">Studio</span></a>
             <nav class="header__nav">
-                <input type="checkbox" id="toggle">
-                <label for="toggle">
+                <input type="checkbox" id="toggle" class="burger__input">
+                <label for="toggle" class="burger__label">
                     <span></span>
                 </label>
                 <ul class="header__nav-list">
@@ -43,6 +43,41 @@
                         </svg>
                         +38 096 111 11 11</a></li>
             </ul>
+        </div>
+
+        <!-- mobile-menu -->
+
+        <div class="mobile__menu">
+            <nav class="mobile__nav">
+                <ul class="mobile__nav-list">
+                    <li class="mobile__nav-item"><a class="mobile__link-nav hover" href="./index.html">Студія</a></li>
+                    <li class="mobile__nav-item"><a class="mobile__link-nav" href="./portfolio.html">Портфоліо</a></li>
+                    <li class="mobile__nav-item"><a href="#" class="mobile__link-nav">Контакти</a></li>
+                </ul>
+            </nav>
+            <div>
+            <ul class="mobile__contacts">
+                <li class="mobile__contacts-item "><a class="mobile__contacts-link tel-link" href="tel:+380961111111">
+                        +38 096 111 11 11</a></li>
+                <li class="mobile__contacts-item"><a class="mobile__contacts-link email-link" href="mailto:info@devstudio.com">
+                        info@devstudio.com</a></li>
+
+            </ul>
+            <ul class="mobile__social">
+                <li class="mobile__social-item">
+                    <a href="" class="mobile__social-link">Instagram</a>
+                </li>
+                <li class="mobile__social-item">
+                    <a href="" class="mobile__social-link">Twitter</a>
+                </li>
+                <li class="mobile__social-item">
+                    <a href="" class="mobile__social-link">Facebook</a>
+                </li>
+                <li class="mobile__social-item">
+                    <a href="" class="mobile__social-link">Linkedin</a>
+                </li>
+            </ul>
+        </div>
         </div>
     </header>
     <main>
@@ -343,58 +378,64 @@
             </div>
         </div>
     </footer>-->
-    <div class="backdrop is-hidden" data-modal> 
-        <div class="modal">
-            <button class="btn" data-modal-close>                        
-                <svg class="close-svg">
-                    <use href="./img/icons/symbol-defs.svg#icon-close"></use>
-                </svg>
-            </button>
-            <h1 class="modal-title">Залиште свої дані, ми вам передзвонимо</h1>
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button class="btn" data-modal-close>
+                    <svg class="close-svg">
+                        <use href="./img/icons/symbol-defs.svg#icon-close"></use>
+                    </svg>
+                </button>
+                <h1 class="modal-title">Залиште свої дані, ми вам передзвонимо</h1>
                 <form class="signup-form">
                     <label class="signup-label">Ім'я
-<div class="signup-thumb">
-                        <input class="signup-input" type="text" name="name"  pattern="^[A-Za-zА-Яа-яЁёІіЇїЄє\s\-']{1,50}$" required title="Вкажіть своє ім'я">
+                        <div class="signup-thumb">
+                            <input class="signup-input" type="text" name="name"
+                                pattern="^[A-Za-zА-Яа-яЁёІіЇїЄє\s\-']{1,50}$" required title="Вкажіть своє ім'я">
                             <svg class="signup-svg">
                                 <use href="./img/icons/symbol-defs.svg#icon-person"></use>
                             </svg>
-                    </div>
+                        </div>
                     </label>
-                    <label  class="signup-label">Номер телефону
+                    <label class="signup-label">Номер телефону
                         <div class="signup-thumb">
-                        <input class="signup-input" type="tel" name="phone" pattern="^(?:\d{10}|38\d{10})$" required title="Вкажіть свій номер телефону">
+                            <input class="signup-input" type="tel" name="phone" pattern="^(?:\d{10}|38\d{10})$" required
+                                title="Вкажіть свій номер телефону">
                             <svg class="signup-svg">
                                 <use href="./img/icons/symbol-defs.svg#icon-phone"></use>
                             </svg>
                         </div>
                     </label>
 
-                    <label  class="signup-label">Пошта
+                    <label class="signup-label">Пошта
                         <div class="signup-thumb">
-                        <input class="signup-input" type="email" name="email" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required title="Вкажіть свою елктронну адресу">
+                            <input class="signup-input" type="email" name="email"
+                                pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required
+                                title="Вкажіть свою елктронну адресу">
                             <svg class="signup-svg">
                                 <use href="./img/icons/symbol-defs.svg#icon-email"></use>
                             </svg>
                         </div>
                     </label>
-                    <label placeholder="Your message*" class="signup-label" for="" >Коментар
+                    <label placeholder="Your message*" class="signup-label" for="">Коментар
                         <div class="signup-thumb">
-                        <textarea  class="signup-input" name="message" placeholder="Введіть текст" id="" cols="30" rows="10"></textarea>
+                            <textarea class="signup-input" name="message" placeholder="Введіть текст" id="" cols="30"
+                                rows="10"></textarea>
                         </div>
                     </label>
                     <div class="security__div">
                         <input class="security__input" required type="checkbox" name="security"
-                    value="Погоджуюся з розсилкою та приймаю Умови договору">
-                    <h3 class="security__text">Погоджуюся з розсилкою та приймаю</h3> <a class="security__link" href="#">Умови договору</a>
+                            value="Погоджуюся з розсилкою та приймаю Умови договору">
+                        <h3 class="security__text">Погоджуюся з розсилкою та приймаю</h3> <a class="security__link"
+                            href="#">Умови договору</a>
                     </div>
-                <button class="signup-button" type="submit">Відправити</button>
-                <div class="label__input">
+                    <button class="signup-button" type="submit">Відправити</button>
+                    <div class="label__input">
 
-                </div>
-            </form>
-            </li>
+                    </div>
+                </form>
+                </li>
+            </div>
         </div>
-    </div>
 
         <script src="./modal.js"></script>
 </body>
