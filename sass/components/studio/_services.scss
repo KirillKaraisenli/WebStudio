@@ -1,42 +1,93 @@
 
 .services {
-    padding-bottom: 94px;
+display: none;
+  }
+
+  // tablet
+  @media screen and (min-width: 768px){
+    .services {
+      display: flex;
+      padding-bottom: 94px;
+      
+        &__title {
+      color: #212121;
+      text-align: center;
+      font-size: 36px;
+      font-weight: 700;
+      letter-spacing: 1.08px;
+      margin-bottom: 50px;
+    }
     
-      &__title {
-    color: #212121;
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    letter-spacing: 1.08px;
-    margin-bottom: 50px;
+    &__list {
+      // @extend %flex;
+      gap: 30px;
+    }
+    
+    &__item {
+      position: relative;
+    }
+    
+    &__photo {
+    }
+    
+    &__p {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 70px;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: rgba(47, 48, 58, 0.8);
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.42px;
+      text-transform: uppercase;
+    }
+    }
   }
-  
-  &__list {
-    @extend %flex;
-    gap: 30px;
+  // desctop
+  @media screen and (min-width: 1200px){
+    .services {
+      display: flex;
+      padding-bottom: 94px;
+      
+        &__title {
+      color: #212121;
+      text-align: center;
+      font-size: 36px;
+      font-weight: 700;
+      letter-spacing: 1.08px;
+      margin-bottom: 50px;
+    }
+    
+    &__list {
+      // @extend %flex;
+      gap: 30px;
+    }
+    
+    &__item {
+      position: relative;
+    }
+    
+    &__photo {
+    }
+    
+    &__p {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 70px;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: rgba(47, 48, 58, 0.8);
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.42px;
+      text-transform: uppercase;
+    }
+    }
   }
-  
-  &__item {
-    position: relative;
-  }
-  
-  &__photo {
-  }
-  
-  &__p {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 70px;
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgba(47, 48, 58, 0.8);
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 0.42px;
-    text-transform: uppercase;
-  }
-  }
-  
