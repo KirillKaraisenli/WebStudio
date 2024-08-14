@@ -1,9 +1,8 @@
-
-
 .container{
   width: 100%;  
-  padding: 0 15px;
-  outline: solid red 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  // outline: solid red 1px;
 }
 
   // mobile 480px
@@ -12,8 +11,6 @@
   .container {
       width: 480px;
       margin: 0 auto;
-      padding-left: 15px;
-      padding-right: 15px;
   }
 }
 
@@ -29,10 +26,5 @@
 @media screen and (min-width: 1200px) {
   .container {
       width: 1200px;
-  }
-
-
-  .section {
-      margin-bottom: 94px;
   }
 }
