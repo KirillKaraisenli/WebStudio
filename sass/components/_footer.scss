@@ -1,4 +1,6 @@
+@media screen and (min-width: 768px) {}
 
+@media screen and (min-width: 1200px) {
 .footer {
     margin-top: 70px;
     height: 252px;
@@ -79,7 +81,9 @@
   
   &-svg-link {
   
-    @extend %flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -140,7 +144,9 @@
   }
   
   &__button { 
-    @extend %flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 36px;
     margin-left: 12px;
     color: #FFF;
@@ -171,4 +177,4 @@
     display: flex;
     padding-top: 72px;
     padding-left: 93px;
-  }
+  }}
