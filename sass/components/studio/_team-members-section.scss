@@ -1,4 +1,4 @@
-
+@media screen and (min-width: 1200px) {
 .team-members {
     padding: 94px 0;
     background: #f5f4fa; 
@@ -62,8 +62,9 @@
   }
   
   &-svg-link {
-   
-    @extend %flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -87,7 +88,4 @@
     fill: #fff;
   }
   }
-  
-
-  
-  
+  }
