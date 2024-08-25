@@ -96,7 +96,7 @@
   // display: flex;
 }
 
-&-svg-section {
+&__svg-section {
   // padding-top: 72px;
   // padding-left: 70px;
 }
@@ -167,7 +167,168 @@ fill: #FFF;
 // tablet
 
 @media screen and (min-width: 768px) {
-
+  .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #2f303a;  
+    text-align: center;
+    
+    &__logo {
+    font-family: Raleway;
+    color: $link-color;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.72px;
+  }
+  
+  &__logo2{
+    font-family: Raleway;
+    color: #FFF;
+  }
+  
+  &__list {
+    padding-top: 20px;
+  }
+  
+  &__link-1 {
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 171.429%;
+    letter-spacing: 0.42px;
+  }
+  
+  &__link-2 {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 171.429%;
+    letter-spacing: 0.42px;
+  
+  }
+  &__link-2:last-child {
+    margin: 8px 0px;
+  }
+  
+  &__text {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-top: 60px;
+  }
+  
+  &__item {
+  }
+  
+  &-svg-list {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  &-svg-item {
+  }
+  
+  &-svg-link {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1); 
+     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  &-svg {
+    fill: #fff;
+    width: 20px;
+    height: 20px; 
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  &-svg-link:hover,
+  &-svg-link:focus {
+    background-color: $link-color;
+  } 
+  &-x-svg {
+    // flex-wrap: wrap;
+    // flex-direction: column;
+  }
+  
+  &__svg-section {
+    // padding-top: 72px;
+    // padding-left: 70px;
+  }
+  
+  &__form-container {
+  
+  }
+  
+  &__form {
+  
+  }
+  &-label {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+  }
+  
+  &-input {
+    padding: 15px 16px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.60);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.48px;
+  height: 50px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(33, 150, 243, 0.00);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  }
+  
+  &__button { 
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 20px;
+    color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.96px;
+    width: 200px;
+  height: 50px;
+  flex-shrink: 0;
+    border-radius: 4px;
+    background: $link-color;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  }
+  
+  &__svg-button {
+    margin-left: 10px;
+    width: 24px;
+  height: 24px;
+  fill: #FFF;
+  }
+  }
 }
 
 // desctop
@@ -277,7 +438,7 @@ fill: #FFF;
     display: flex;
   }
   
-  &-svg-section {
+  &__svg-section {
     padding-top: 72px;
     padding-left: 70px;
   }
