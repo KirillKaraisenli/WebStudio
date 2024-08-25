@@ -1,43 +1,31 @@
 // mobile
 
 .footer {
-  margin-top: 70px;
-  height: 252px;
-  flex-shrink: 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: #2f303a;  
-  flex-wrap: wrap;
+  text-align: center;
   
   &__logo {
-  display: flex;
-  padding-top: 60px;
   color: $link-color;
-  font-family: Raleway;
-  font-size: 26px;
-  font-style: normal;
+  font-size: 24px;
   font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.78px;
+  letter-spacing: 0.72px;
+  margin-bottom: 20px;
 }
 
 &__logo2{
   color: #FFF;
-  font-family: Raleway;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.78px;
 }
 
 &__list {
-  display: flex;
-  padding-top: 20px;
-  flex-direction: column;
+  // display: flex;
+  // padding-top: 20px;
+  // flex-direction: column;
 }
 
 &__link-1 {
   color: #fff;
-  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -47,9 +35,7 @@
 
 &__link-2 {
   color: rgba(255, 255, 255, 0.6);
-  font-family: "Roboto", sans-serif;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 171.429%;
   letter-spacing: 0.42px;
@@ -59,9 +45,8 @@
   color: #fff;
   font-family: Roboto;
   font-size: 14px;
-  font-style: normal;
+  text-align: center;
   font-weight: 700;
-  line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -73,7 +58,9 @@
 &-svg-list {
   display: flex;
   gap: 10px;
-  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
 }
 
 &-svg-item {
@@ -101,42 +88,44 @@
 &-svg-link:hover,
 &-svg-link:focus {
   background-color: $link-color;
-} &-x-svg {
-  display: flex;
+} 
+&-x-svg {
+  // display: flex;
 }
 
 &-svg-section {
-  padding-top: 72px;
-  padding-left: 70px;
+  // padding-top: 72px;
+  // padding-left: 70px;
 }
 
+&__form-container {
 
+}
 
+&__form {
+  // display: flex;
+  // padding-top: 72px;
+
+}
 &-label {
-  width: 358px;
   color: #FFF;
   font-family: Roboto;
   font-size: 14px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
 
 &-input {
-  margin-top: 20px;
   padding: 15px 16px;
+  width: 100%;
   color: rgba(255, 255, 255, 0.60);
 font-family: Roboto;
 font-size: 16px;
-font-style: normal;
 font-weight: 400;
 line-height: 20px; /* 125% */
 letter-spacing: 0.48px;
-  width: 358px;
 height: 50px;
-flex-shrink: 0;
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.30);
   background: rgba(33, 150, 243, 0.00);
@@ -173,11 +162,7 @@ fill: #FFF;
 }
 }
 
-.Label__footer {
-  display: flex;
-  padding-top: 72px;
 
-}
 
 // tablet
 
