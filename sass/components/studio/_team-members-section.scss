@@ -95,16 +95,18 @@
   .team-members {
     
     &__title {
-
+    padding-bottom: 30px;
   }
   
   &__list {
   }
   
   &__item {
+
   }
   
   &__photo {
+
     width: 354px;
     height: 374px;
   }
@@ -174,7 +176,6 @@
   }
   
   &-svg-list {
-    margin-bottom: 30px;
   }
   
   &-svg-item {

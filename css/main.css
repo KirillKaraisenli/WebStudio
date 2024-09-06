@@ -858,6 +858,9 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  .team-members__title {
+    padding-bottom: 30px;
+  }
   .team-members__photo {
     width: 354px;
     height: 374px;
@@ -882,9 +885,6 @@ body {
   .team-members__photo {
     width: 270px;
     height: 260px;
-  }
-  .team-members-svg-list {
-    margin-bottom: 30px;
   }
   .team-members-svg-link:hover, .team-members-svg-link:focus {
     background-color: #2196f3;

@@ -140,8 +140,20 @@
             <div class="container">
                 <h2 class="team-members__title">Наша команда</h2>
                 <ul class="team-members__list">
-                    <li class="team-members__item"><img class="team-members__photo" src="./img/team/igor.jpg"
-                            alt="чоловік">
+                    <li class="team-members__item">
+                        <picture class="team-members__photo">
+                        <source srcset="./img/team/igor-mobile1x.jpg 1x,
+                         ./img/team/igor-mobile2x.jpg 2x" media="(max-width:767px)">
+
+                        <source srcset="./img/team/igor-tablet1x.jpg 1x,
+                        ./img/team/igor-tablet2x.jpg 2x," media="(min-width:768px)">
+
+                        <source srcset="./img/team/igor-desctop1x.jpg 1x,
+                        ./img/team/igor-desctop2x.jpg 2x," media="(min-width:1200px)">
+
+                         <img src="#"
+                         alt="igor">
+                    </picture>
                         <h3 class="team-members__subtitle">Ігор Дем'яненко</h3>
                         <p class="team-members_text">Product Designer</p>
                         <ul class="team-members-svg-list">
