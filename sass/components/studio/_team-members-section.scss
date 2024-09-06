@@ -11,6 +11,7 @@
     font-size: 28px;
     font-weight: 700;
     letter-spacing: 0.84px;
+    margin-bottom: 30px;
 }
 
 &__list {
@@ -95,18 +96,16 @@
   .team-members {
     
     &__title {
-    padding-bottom: 30px;
+
   }
   
   &__list {
   }
   
   &__item {
-
   }
   
   &__photo {
-
     width: 354px;
     height: 374px;
   }
@@ -176,6 +175,7 @@
   }
   
   &-svg-list {
+    margin-bottom: 30px;
   }
   
   &-svg-item {
