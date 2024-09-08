@@ -51,6 +51,7 @@
     letter-spacing: 0.42px;
     text-transform: uppercase;
     margin-bottom: 20px;
+    margin-top: 60px;
   }
 
   &-svg-list {
@@ -161,7 +162,9 @@
       display: flex;
       justify-content: space-around;
     }
-
+    &__text:first-child {
+      margin-top: 0px;
+    }
     &-input {
       width: 450px;
     }
@@ -208,6 +211,5 @@
     &__button {
       margin-top: 0;
     }
-
   }
 }

@@ -303,6 +303,7 @@ body {
   letter-spacing: 0.42px;
   text-transform: uppercase;
   margin-bottom: 20px;
+  margin-top: 60px;
 }
 .footer-svg-list {
   display: flex;
@@ -385,6 +386,9 @@ body {
   .footer__info-thumb {
     display: flex;
     justify-content: space-around;
+  }
+  .footer__text:first-child {
+    margin-top: 0px;
   }
   .footer-input {
     width: 450px;
@@ -1317,6 +1321,9 @@ body {
     padding-left: 2px;
   }
 }
+.portfolio__projects {
+  padding-bottom: 94px;
+}
 .portfolio__projects-list {
   display: flex;
   flex-direction: column;
@@ -1396,6 +1403,10 @@ body {
   .portfolio__projects-overlay-text {
     padding: 63px 24px;
   }
+}
+.portfolio-buttons {
+  padding-top: 94px;
+  padding-bottom: 56px;
 }
 .portfolio-buttons__list {
   width: 326px;

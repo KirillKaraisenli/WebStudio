@@ -18,7 +18,7 @@
 
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container ">
             <a href="#" class="header__logo">Web<span class="header__logo2">Studio</span></a>
             <nav class="header__nav">
                 <input type="checkbox" id="toggle" class="burger__input">
@@ -86,7 +86,7 @@
     </header>
     <main>
         <!-- portfolio buttons -->
-        <section class="portfolio-buttons section">
+        <section class="portfolio-buttons">
             <div class="container">
                 <ul class="portfolio-buttons__list">
                     <li class="portfolio-buttons__item">
@@ -262,7 +262,77 @@
             </div>
         </section>
     </main>
-    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-x-svg">
+                <div class="footer__info-thumb">
+                    <div class="footer-section">
+                        <a class="footer__logo" href="#">Web<span class="footer__logo2">Studio</span></a>
+                        <ul class="footer__list">
+                            <li class="footer__item"><a class="footer__link-1" href="#">м. Київ, пр-т Лесі Українки,
+                                    26</a>
+                            </li>
+                            <li class="footer__item"><a class="footer__link-2"
+                                    href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                            <li class="footer__item"><a class="footer__link-2" href="tel:+380961111111">+38 096 111 11
+                                    11</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__svg-section">
+                        <h2 class="footer__text">приєднуйтесь</h2>
+                        <ul class="footer-svg-list">
+                            <li class="footer-svg-item">
+                                <a href="#" class="footer-svg-link">
+                                    <svg class="footer-svg">
+                                        <use href="./img/icons/symbol-defs.svg#icon-instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="footer-svg-item">
+                                <a href="#" class="footer-svg-link">
+                                    <svg class="footer-svg">
+                                        <use href="./img/icons/symbol-defs.svg#icon-twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="footer-svg-item">
+                                <a href="#" class="footer-svg-link">
+                                    <svg class="footer-svg">
+                                        <use href="./img/icons/symbol-defs.svg#icon-facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="footer-svg-item">
+                                <a href="#" class="footer-svg-link">
+                                    <svg class="footer-svg">
+                                        <use href="./img/icons/symbol-defs.svg#icon-linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__form-container">
+                    <h2 class="footer__text">Підпишіться на розсилку</h2>
+                    <form class="footer__form">
+                        <label class="footer-label">
+                            <input placeholder="E-mail" class="footer-input" type="email" name="email"
+                                pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required
+                                title="Вкажіть свою електронну адресу">
+
+                        </label>
+                        <button type="submit" class="footer__button">
+                            Підписатися
+                            <svg class="footer__svg-button">
+                                <use href="./img/icons/symbol-defs.svg#icon-send"></use>
+                            </svg></button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </footer>
 </body>
 
 </html>
