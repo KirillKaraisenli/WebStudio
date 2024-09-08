@@ -119,7 +119,7 @@
         </section>
         <section class="services">
             <div class="container">
-                <р2 class="services__title">Чим ми займаємося</h2>
+                <h2 class="services__title">Чим ми займаємося</h2>
                     <ul class="services__list">
                         <li class="services__item">
                             <img class="services__photo" src="./img/works/designer.jpg" alt="робота на комп'юторі">
@@ -185,8 +185,18 @@
                                 </a>
                             </li>
                         </ul>
-                    <li class="team-members__item"><img class="team-members__photo" src="./img/team/olga.jpg"
-                            alt="жінка">
+                    <li class="team-members__item"><picture class="team-members__photo">
+                        <source    srcset="./img/team/olga-mobile1x.jpg 1x,
+                        ./img/team/olga-mobile2x.jpg 2x" media="(max-width:767px)">
+
+                        <source srcset="./img/team/olga-tablet1x.jpg 1x,
+                        ./img/team/olga-tablet2x.jpg  2x," media="(min-width:768px)">
+
+                        <source srcset="./img/team/olga-desctop1x.jpg 900w 1x,
+                    ./img/team/olga-desctop2x.jpg 2x," media="(min-width:1200px)">
+
+                        <img class="team-members__photo" src="#" alt="olga">
+                    </picture>
                         <h3 class="team-members__subtitle">Ольга Рєпіна</h3>
                         <p class="team-members_text">Frontend Developer</p>
                         <ul class="team-members-svg-list">
@@ -220,8 +230,18 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="team-members__item"><img class="team-members__photo" src="./img/team/micola.jpg"
-                            alt="чоловік">
+                    <li class="team-members__item"><picture class="team-members__photo">
+                        <source    srcset="./img/team/micola-mobile1x.jpg 1x,
+                        ./img/team/micola-mobile2x.jpg 2x" media="(max-width:767px)">
+
+                        <source srcset="./img/team/micola-tablet1x.jpg 1x,
+                        ./img/team/micola-tablet2x.jpg  2x," media="(min-width:768px)">
+
+                        <source srcset="./img/team/micola-desctop1x.jpg 900w 1x,
+                    ./img/team/micola-desctop2x.jpg 2x," media="(min-width:1200px)">
+
+                        <img class="team-members__photo" src="#" alt="micola">
+                    </picture>
                         <h3 class="team-members__subtitle">Микола Тарасов</h3>
                         <p class="team-members_text">Marketing</p>
                         <ul class="team-members-svg-list">
@@ -255,8 +275,18 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="team-members__item"><img class="team-members__photo" src="./img/team/michailo.jpg"
-                            alt="чоловік">
+                    <li class="team-members__item"><picture class="team-members__photo">
+                        <source    srcset="./img/team/michailo-mobile1x.jpg 1x,
+                        ./img/team/michailo-mobile2x.jpg 2x" media="(max-width:767px)">
+
+                        <source srcset="./img/team/michailo-tablet1x.jpg 1x,
+                        ./img/team/michailo-tablet2x.jpg  2x," media="(min-width:768px)">
+
+                        <source srcset="./img/team/michailo-desctop1x.jpg 900w 1x,
+                    ./img/team/michailo-desctop2x.jpg 2x," media="(min-width:1200px)">
+
+                        <img class="team-members__photo" src="#" alt="michailo">
+                    </picture>
                         <h3 class="team-members__subtitle">Михайло Єрмаков </h3>
                         <p class="team-members_text">UI Designer</p>
                         <ul class="team-members-svg-list">
