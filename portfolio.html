@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,10 +15,11 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
+
 <body>
     <header class="header">
         <div class="container ">
-            <a href="#" class="header__logo">Web<span class="header__logo2">Studio</span></a> 
+            <a href="#" class="header__logo">Web<span class="header__logo2">Studio</span></a>
             <nav class="header__nav">
                 <input type="checkbox" id="toggle" class="burger__input">
                 <label for="toggle" class="burger__label">
@@ -111,14 +113,22 @@
                 <ul class="portfolio__projects-list">
                     <li class="portfolio__projects-item">
                         <div class="portfolio__projects-thumb">
-                            <img class="portfolio__projects-photo" src="./img/portfolio/website.jpg" alt="технокряк" />
-                            <div class="portfolio__projects-overlay">
-                                <p class="portfolio__projects-overlay-text">
-                                    Ресурс пропонує комплексні пропозиції з різним рівнем
-                                    функціоналу та сервісів. Все це дозволить відвідувачу
-                                    отримати вичерпні відомості про компанію чи приватну особу.
-                                </p>
-                            </div>
+                            <picture class="team-members__photo">
+                                <source srcset="./img/portfolio/website/website-desctop1x.jpg 1x,
+                                ./img/portfolio/website/website-desctop2x.jpg 2x," media="(min-width:1200px)">
+                                <source srcset="./img/portfolio/website/website-tablet1x.jpg 1x,
+                                ./img/portfolio/website/website-tablet2x.jpg 2x," media="(min-width:768px)">
+                                <source srcset="./img/portfolio/website/website-mobile1x.jpg 1x,
+                             ./img/portfolio/website/website-mobile2x.jpg 2x" media="(max-width:767px)">
+                                <img class="portfolio__projects-photo" src="#" alt="website">
+                                </picture>
+                                <div class="portfolio__projects-overlay">
+                                    <p class="portfolio__projects-overlay-text">
+                                        Ресурс пропонує комплексні пропозиції з різним рівнем
+                                        функціоналу та сервісів. Все це дозволить відвідувачу
+                                        отримати вичерпні відомості про компанію чи приватну особу.
+                                    </p>
+                                </div>
                         </div>
                         <div class="portfolio__projects-content">
                             <h2 class="portfolio__projects-subtitle">Технокряк</h2>
@@ -127,8 +137,16 @@
                     </li>
                     <li class="portfolio__projects-item">
                         <div class="portfolio__projects-thumb">
-                            <img class="portfolio__projects-photo" src="./img/portfolio/basketball.jpg"
-                                alt="баскетбол" />
+                            <picture class="team-members__photo">
+                                <source srcset="./img/portfolio/basketball/basketball-desctop1x.jpg 1x,
+                                ./img/portfolio/basketball/basketball-desctop2x.jpg 2x," media="(min-width:1200px)">
+                                <source srcset="./img/portfolio/basketball/basketball-tablet1x.jpg 1x,
+                                ./img/portfolio/basketball/basketball-tablet2x.jpg 2x," media="(min-width:768px)">
+                                <source srcset="./img/portfolio/basketball/basketball-mobile1x.jpg 1x,
+                             ./img/portfolio/basketball/basketball-mobile2x.jpg 2x" media="(max-width:767px)">
+                                <img class="portfolio__projects-photo" src="#" alt="basketball">
+                                </picture>
+
                             <div class="portfolio__projects-overlay">
                                 <p class="portfolio__projects-overlay-text">
                                     Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -146,7 +164,15 @@
                     </li>
                     <li class="portfolio__projects-item">
                         <div class="portfolio__projects-thumb">
-                            <img class="portfolio__projects-photo" src="./img/portfolio/restaurant.jpg">
+                            <picture class="team-members__photo">
+                                <source srcset="./img/portfolio/restourant/restourant-desctop1x.jpg 1x,
+                                ./img/portfolio/restourant/restourant-desctop2x.jpg 2x," media="(min-width:1200px)">
+                                <source srcset="./img/portfolio/restourant/restourant-tablet1x.jpg 1x,
+                                ./img/portfolio/restourant/restourant-tablet2x.jpg 2x," media="(min-width:768px)">
+                                <source srcset="./img/portfolio/restourant/restourant-mobile1x.jpg 1x,
+                             ./img/portfolio/restourant/restourant-mobile2x.jpg 2x" media="(max-width:767px)">
+                                <img class="portfolio__projects-photo" src="#" alt="restourant">
+                                </picture>
                             <div class="portfolio__projects-overlay">
                                 <p class="portfolio__projects-overlay-text">
                                     Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -162,7 +188,15 @@
                     </li>
                     <li class="portfolio__projects-item">
                         <div class="portfolio__projects-thumb">
-                            <img class="portfolio__projects-photo" src="./img/portfolio/headphones.jpg" />
+                            <picture class="team-members__photo">
+                                <source srcset="./img/portfolio/headpones/headpones-desctop1x.jpg 1x,
+                                ./img/portfolio/headpones/headpones-desctop2x.jpg 2x," media="(min-width:1200px)">
+                                <source srcset="./img/portfolio/headpones/headpones-tablet1x.jpg 1x,
+                                ./img/portfolio/headpones/headpones-tablet2x.jpg 2x," media="(min-width:768px)">
+                                <source srcset="./img/portfolio/headpones/headpones-mobile1x.jpg 1x,
+                             ./img/portfolio/headpones/headpones-mobile2x.jpg 2x" media="(max-width:767px)">
+                                <img class="portfolio__projects-photo" src="#" alt="headpones">
+                                </picture>
                             <div class="portfolio__projects-overlay">
                                 <p class="portfolio__projects-overlay-text">
                                     Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -178,7 +212,15 @@
                     </li>
                     <li class="portfolio__projects-item">
                         <div class="portfolio__projects-thumb">
-                            <img class="portfolio__projects-photo" src="./img/portfolio/box.jpg" />
+                            <picture class="team-members__photo">
+                                <source srcset="./img/portfolio/box/box-desctop1x.jpg 1x,
+                                ./img/portfolio/box/box-desctop2x.jpg 2x," media="(min-width:1200px)">
+                                <source srcset="./img/portfolio/box/box-tablet1x.jpg 1x,
+                                ./img/portfolio/box/box-tablet2x.jpg 2x," media="(min-width:768px)">
+                                <source srcset="./img/portfolio/box/box-mobile1x.jpg 1x,
+                             ./img/portfolio/box/box-mobile2x.jpg 2x" media="(max-width:767px)">
+                                <img class="portfolio__projects-photo" src="#" alt="box">
+                                </picture>
                             <div class="portfolio__projects-overlay">
                                 <p class="portfolio__projects-overlay-text">
                                     Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -194,7 +236,15 @@
                     </li>
                     <li class="portfolio__projects-item">
                         <div class="portfolio__projects-thumb">
-                            <img class="portfolio__projects-photo" src="./img/portfolio/display.jpg" />
+                            <picture class="team-members__photo">
+                                <source srcset="./img/portfolio/display/display-desctop1x.jpg 1x,
+                                ./img/portfolio/display/display-desctop2x.jpg 2x," media="(min-width:1200px)">
+                                <source srcset="./img/portfolio/display/display-tablet1x.jpg 1x,
+                                ./img/portfolio/display/display-tablet2x.jpg 2x," media="(min-width:768px)">
+                                <source srcset="./img/portfolio/display/display-mobile1x.jpg 1x,
+                             ./img/portfolio/display/display-mobile2x.jpg 2x" media="(max-width:767px)">
+                                <img class="portfolio__projects-photo" src="#" alt="display">
+                                </picture>
                             <div class="portfolio__projects-overlay">
                                 <p class="portfolio__projects-overlay-text">
                                     Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -210,7 +260,15 @@
                     </li>
                     <li class="portfolio__projects-item">
                         <div class="portfolio__projects-thumb">
-                            <img class="portfolio__projects-photo" src="./img/portfolio/book.jpg" />
+                            <picture class="team-members__photo">
+                                <source srcset="./img/portfolio/book/book-desctop1x.jpg 1x,
+                                ./img/portfolio/book/book-desctop2x.jpg 2x," media="(min-width:1200px)">
+                                <source srcset="./img/portfolio/book/book-tablet1x.jpg 1x,
+                                ./img/portfolio/book/book-tablet2x.jpg 2x," media="(min-width:768px)">
+                                <source srcset="./img/portfolio/book/book-mobile1x.jpg 1x,
+                             ./img/portfolio/book/book-mobile2x.jpg 2x" media="(max-width:767px)">
+                                <img class="portfolio__projects-photo" src="#" alt="book">
+                                </picture>
                             <div class="portfolio__projects-overlay">
                                 <p class="portfolio__projects-overlay-text">
                                     Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -226,7 +284,15 @@
                     </li>
                     <li class="portfolio__projects-item">
                         <div class="portfolio__projects-thumb">
-                            <img class="portfolio__projects-photo" src="./img/portfolio/tag.jpg" />
+                            <picture class="team-members__photo">
+                                <source srcset="./img/portfolio/tag/tag-desctop1x.jpg 1x,
+                                ./img/portfolio/tag/tag-desctop2x.jpg 2x," media="(min-width:1200px)">
+                                <source srcset="./img/portfolio/tag/tag-tablet1x.jpg 1x,
+                                ./img/portfolio/tag/tag-tablet2x.jpg 2x," media="(min-width:768px)">
+                                <source srcset="./img/portfolio/tag/tag-mobile1x.jpg 1x,
+                             ./img/portfolio/tag/tag-mobile2x.jpg 2x" media="(max-width:767px)">
+                                <img class="portfolio__projects-photo" src="#" alt="tag">
+                                </picture>
                             <div class="portfolio__projects-overlay">
                                 <p class="portfolio__projects-overlay-text">
                                     Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -242,7 +308,15 @@
                     </li>
                     <li class="portfolio__projects-item">
                         <div class="portfolio__projects-thumb">
-                            <img class="portfolio__projects-photo" src="./img/portfolio/work.jpg" />
+                            <picture class="team-members__photo">
+                                <source srcset="./img/portfolio/work/work-desctop1x.jpg 1x,
+                                ./img/portfolio/work/work-desctop2x.jpg 2x," media="(min-width:1200px)">
+                                <source srcset="./img/portfolio/work/work-tablet1x.jpg 1x,
+                                ./img/portfolio/work/work-tablet2x.jpg 2x," media="(min-width:768px)">
+                                <source srcset="./img/portfolio/work/work-mobile1x.jpg 1x,
+                             ./img/portfolio/work/work-mobile2x.jpg 2x" media="(max-width:767px)">
+                                <img class="portfolio__projects-photo" src="#" alt="work">
+                                </picture>
                             <div class="portfolio__projects-overlay">
                                 <p class="portfolio__projects-overlay-text">
                                     Ресурс пропонує комплексні пропозиції з різним рівнем
